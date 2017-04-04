@@ -9,8 +9,8 @@
     <title>Belajar Online</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo base_url('assets/css/bootstrap.min.css');?>" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo base_url('assets/font-awesome/css/font-awesome.css');?>">
+    <link href="<?php echo base_url('resources/backend/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo base_url('resources/backend/font-awesome/css/font-awesome.css');?>">
   </head>
 
    <!-- Static navbar -->
