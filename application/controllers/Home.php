@@ -13,6 +13,7 @@ class Home extends CI_Controller {
 		  			'dashboard' => True);
 
 			$this->load->view('frontend/part/header');
+			$this->load->view('frontend/layout/dashboard/data');
 			$this->load->view('frontend/part/footer');
 	}
 }
