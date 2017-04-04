@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php echo $title ?> - <?php echo systems('admin_title') ?></title>
+    <title>Belajar Online Web</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/frontend/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/frontend/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/backend/css/AdminLTE.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/backend/css/toastr.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/backend/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>resources/backend/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>resources/backend/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>resources/backend/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>resources/backend/dist/css/toastr.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>resources/backend/dist/css/skins/_all-skins.min.css">
     <![endif]-->
 </head>
 <body class="hold-transition skin-green fixed sidebar-mini">
@@ -46,17 +46,17 @@
                     <!-- User Account: style can be found in dropdown.less -->
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="# ?>" class="user-image" alt="User Image">
+                            <img src="" class="user-image" alt="User Image">
                             <span class="hidden-xs"></span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
                             <li class="user-header">
-                                <img src="#" class="img-circle" alt="User Image">
+                                <img src="" class="img-circle" alt="User Image">
 
                                 <p>
-                                    #
-                                    <small>@#</small>
+                                   
+                                    <small>@</small>
                                 </p>
                             </li>
                             <!-- Menu Body -->
@@ -69,10 +69,10 @@
                             <!-- Menu Footer-->
                             <li class="user-footer">
                                 <div class="pull-left">
-                                    <a href="#" class="btn btn-default btn-flat"><i class="fa fa-user-circle-o"></i> Profile</a>
+                                    <a href="" class="btn btn-default btn-flat"><i class="fa fa-user-circle-o"></i> Profile</a>
                                 </div>
                                 <div class="pull-right">
-                                    <a href="#" class="btn btn-default btn-flat"> Logout <i class="fa fa-ban"></i></a>
+                                    <a href="" class="btn btn-default btn-flat"> Logout <i class="fa fa-ban"></i></a>
                                 </div>
                             </li>
                         </ul>

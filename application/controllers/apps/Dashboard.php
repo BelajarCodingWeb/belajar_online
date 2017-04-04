@@ -13,6 +13,8 @@ class Dashboard extends CI_Controller {
 		  			'dashboard' => True);
 
 			$this->load->view('backend/part/header');
+			$this->load->view('backend/part/sidebar');
+			$this->load->view('backend/part/footer');
 		
 	}
 }
