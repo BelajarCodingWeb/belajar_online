@@ -1,11 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-/**
- * @package  : Belajar Coding Web.
- * @author   : Mohammad Yazidinni'am <myazidinniam@gmail.com>
+ /*
+ * @package  : BELAJAR PEMROGRAMAN ONLINE.
+ * @author   : Badriyatul Muawannah<annahasyim97@gmail.com>
  * @since    : 2017
- * @license  : http://localhost/belajar_online
- */
+ * @license  : https://muawannah.com/portofolio/belajar-online/
+  */
 class Home extends CI_Controller {
 	public function index()
 	{

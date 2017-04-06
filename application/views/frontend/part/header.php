@@ -1,3 +1,9 @@
+<!--
+ * @package  : BELAJAR PEMROGRAMAN ONLINE.
+ * @author   : Badriyatul Muawannah<annahasyim97@gmail.com>
+ * @since    : 2017
+ * @license  : https://muawannah.com/portofolio/belajar-online/
+ -->
 <head>
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,37 +15,37 @@
     <title>Belajar Online</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo base_url('resources/backend/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo base_url('resources/backend/font-awesome/css/font-awesome.css');?>">
+    <link href="<?php echo base_url()?>resources/backend/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo base_url()?>resources/backend/font-awesome/css/font-awesome.css">
     <script src="<?php echo base_url() ?>resources/public/js/jquery.min.js"></script>
     <script src="<?php echo base_url() ?>resources/public/js/bootstrap.min.js">       
     </script>
   </head>
-
    <!-- Static navbar -->
-    <nav style="padding-top:5px; box-shadow: 0px 5px 20px #f2f7fd; height:10%" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+    <nav class="navbar navbar-default">
+  <div class="">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="row">
+      <div class="col-md-4" style="padding-top: 15px">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav nav-pills">
-            <li class="active"><a class="btn btn-success" href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          
-          <ul class="nav nav-pills pull-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
-            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-          </ul>
-          </ul>
-        </div><!--/.nav-collapse -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="<?php echo base_url();?>" title=""><img src="<?php echo base_url(); ?>resources/images/logo-code-school.svg" alt=""></a>
+    </div>
       </div>
-    </nav>
+      <div class="col-md-8"  style="padding-top: 15px">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="nav navbar-nav navbar-right">
+        <a style="border-radius: 0px" class="btn btn-success" href="#"> <i class="fa fa-external-link-square"></i> Page</a>
+        <a style="border-radius: 0px" class="btn btn-warning" href="<?php echo base_url() ?>About/"> <i class="fa fa-home"></i> About</a>
+        <a style="border-radius: 0px" class="btn btn-danger" href="#"> <i class="fa fa-sign-in"></i> Login</a>
+      </div>
+    </div><!-- /.navbar-collapse -->
+      </div>
+    </div>
+    </div>
+</nav>
