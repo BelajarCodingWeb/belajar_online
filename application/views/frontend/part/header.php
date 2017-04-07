@@ -20,6 +20,8 @@
     <script src="<?php echo base_url() ?>resources/public/js/jquery.min.js"></script>
     <script src="<?php echo base_url() ?>resources/public/js/bootstrap.min.js">       
     </script>
+    <script src="<?php //echo base_url() ?>resources/backend/css/custom.css">       
+    </script>
   </head>
    <!-- Static navbar -->
    <div class="container">
