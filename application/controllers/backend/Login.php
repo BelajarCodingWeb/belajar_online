@@ -6,15 +6,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @since    : 2017
  * @license  : https://muawannah.com/portofolio/belajar-online/
   */
-class Dashboard extends CI_Controller {
+class Login extends CI_Controller {
 	public function index()
 	{
-		$data = array('title' => 'Admin Belajar Coding Website',
-		  			'dashboard' => True);
-
-			$this->load->view('backend/part/header');
-			$this->load->view('backend/part/sidebar');
-			$this->load->view('backend/part/footer');
-		
+		$data = array('title' => 'Login - 
+			');
+			$this->load->view('backend/layout/auth/login', $data);
 	}
 }
