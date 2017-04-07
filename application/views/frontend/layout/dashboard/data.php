@@ -1,11 +1,11 @@
 <<<<<<< HEAD
 =======
 <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron" style="padding-top:50px; background-image:url(http://localhost/belajar_online/resources/images/back.jpg);
+      <div class="jumbotron" style="padding-top:50px; background-image:url(http://localhost/belajar_online/resources/images/Back.png);
         background-repeat: no-repeat;
         background-size: 100%;
-        height: 400px;">
-        <div style="text-align:center; color:#9e2222">
+        height: 500px;">
+        <div style="text-align:center; color:"#">
         <h1><strong>Belajar Online</strong></h1>
         <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
         <p>To see the difference between static and fixed top navbars, just scroll.</p>
