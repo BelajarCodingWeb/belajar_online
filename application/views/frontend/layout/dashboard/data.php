@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron" style="padding-top:50px; background-image:url(http://localhost/belajar_online/resources/images/Back.png);
         background-repeat: no-repeat;
@@ -13,7 +12,6 @@
           <a style="border-radius:50px" class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Create Free Account</a>
           <a style="border-radius:50px" class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Explore Courses</a>
         </p>
-      </div>
       </div>
       </div>
 
