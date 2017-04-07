@@ -13,8 +13,8 @@
     <div class="row">
     	<div class="col-md-4">
     		<div class="list-group nav-stacked" style="padding-left:20px;">
-    			<a <?php if(isset($about)) { echo '"class="list-group-item active""';} ?> href="<?php echo base_url()?>About/" title=""> About</a>
-    			<a class="list-group-item <?php if(isset($about)) { echo '"active"'; } ?>" href="<?php echo base_url()?>About/Jobs/" title=""> Jobs</a>
+    			<a class="list-group-item" href="<?php echo base_url()?>About/" title=""> About</a>
+    			<a class="list-group-item" href="<?php echo base_url()?>About/Jobs/" title=""> Jobs</a>
     			<a class="list-group-item" href="" title=""> Brand Assets</a>
     			<a class="list-group-item" href="" title=""> Privacy Policy</a>
     			<a class="list-group-item" href="" title=""> Temrs Of Use</a>

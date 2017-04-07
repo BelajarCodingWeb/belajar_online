@@ -20,11 +20,8 @@
     <script src="<?php echo base_url() ?>resources/public/js/jquery.min.js"></script>
     <script src="<?php echo base_url() ?>resources/public/js/bootstrap.min.js">       
     </script>
-    <script src="<?php //echo base_url() ?>resources/backend/css/custom.css">       
-    </script>
-  </head>
+   </head>
    <!-- Static navbar -->
-   <div class="container">
     <nav class="navbar navbar-default">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="row">
@@ -42,7 +39,7 @@
       <div class="col-md-8"  style="padding-top: 15px">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div class="nav navbar-nav navbar-right">
-        <a style="border-radius: 0px" class="btn btn-success" href="#"> <i class="fa fa-external-link-square"></i> Page</a>
+        <a style="border-radius: 0px" class="btn btn-success" href="<?php echo base_url() ?>Courses/"> <i class="fa fa-external-link-square"></i> Courses</a>
         <a style="border-radius: 0px" class="btn btn-warning" href="<?php echo base_url() ?>About/"> <i class="fa fa-home"></i> About</a>
         <a style="border-radius: 0px" class="btn btn-danger" href="<?php echo base_url() ?>frontend/login"> <i class="fa fa-sign-in"></i> Login</a>
       </div>
@@ -50,4 +47,3 @@
       </div>
     </div>
 </nav>
-</div>

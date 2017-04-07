@@ -6,14 +6,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @since    : 2017
  * @license  : https://muawannah.com/portofolio/belajar-online/
   */
-class Home extends CI_Controller {
+class Courses extends CI_Controller {
 	public function index()
 	{
-		$data = array('title' => 'Belajar Coding Website',
-		  			'home' => True);
+		$data = array('title' => 'Courses',
+		  			'courses' => True);
 
 			$this->load->view('frontend/part/header');
-			$this->load->view('frontend/layout/dashboard/data');
+			$this->load->view('frontend/layout/courses/data', $data);
 			$this->load->view('frontend/part/footer');
 	}
 }
