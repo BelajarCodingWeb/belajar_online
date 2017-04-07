@@ -20,6 +20,8 @@
     <script src="<?php echo base_url() ?>resources/public/js/jquery.min.js"></script>
     <script src="<?php echo base_url() ?>resources/public/js/bootstrap.min.js">       
     </script>
+    <script src="<?php //echo base_url() ?>resources/backend/css/custom.css">       
+    </script>
   </head>
    <!-- Static navbar -->
     <nav class="navbar navbar-default">
@@ -42,7 +44,7 @@
       <div class="nav navbar-nav navbar-right">
         <a style="border-radius: 0px" class="btn btn-success" href="#"> <i class="fa fa-external-link-square"></i> Page</a>
         <a style="border-radius: 0px" class="btn btn-warning" href="<?php echo base_url() ?>About/"> <i class="fa fa-home"></i> About</a>
-        <a style="border-radius: 0px" class="btn btn-danger" href="#"> <i class="fa fa-sign-in"></i> Login</a>
+        <a style="border-radius: 0px" class="btn btn-danger" href="<?php echo base_url() ?>frontend/login"> <i class="fa fa-sign-in"></i> Login</a>
       </div>
     </div><!-- /.navbar-collapse -->
       </div>
