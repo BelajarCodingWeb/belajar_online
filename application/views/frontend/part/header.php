@@ -16,6 +16,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url()?>resources/backend/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+     <link href="<?php echo base_url()?>resources/public/css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url()?>resources/backend/font-awesome/css/font-awesome.css">
     <script src="<?php echo base_url() ?>resources/public/js/jquery.min.js"></script>
     <script src="<?php echo base_url() ?>resources/public/js/bootstrap.min.js">       
@@ -39,9 +40,9 @@
       <div class="col-md-6"  style="padding-top: 15px">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div class="nav navbar-nav navbar-right">
-        <a style="border-radius: 0px" class="btn btn-success" href="<?php echo base_url() ?>Courses/"> <i class="fa fa-external-link-square"></i> Courses</a>
-        <a style="border-radius: 0px" class="btn btn-warning" href="<?php echo base_url() ?>About/"> <i class="fa fa-home"></i> About</a>
-        <a style="border-radius: 0px" class="btn btn-danger" href="<?php echo base_url() ?>frontend/login"> <i class="fa fa-sign-in"></i> Login</a>
+        <a style="border-radius: 0px" class="btn btn-success btn-outline" href="<?php echo base_url() ?>Courses/"> <i class="fa fa-external-link-square"></i> Courses</a>
+        <a style="border-radius: 0px" class="btn btn-warning btn-outline" href="<?php echo base_url() ?>About/"> <i class="fa fa-home"></i> About</a>
+        <a style="border-radius: 0px" class="btn btn-danger btn-outline" href="<?php echo base_url() ?>frontend/login"> <i class="fa fa-sign-in"></i> Login</a>
       </div>
     </div><!-- /.navbar-collapse -->
       </div>

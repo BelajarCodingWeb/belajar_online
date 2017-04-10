@@ -156,12 +156,11 @@ padding-left:90px;
         background-size: 100%;
         height: 500px;">
         <div style="text-align:center; color:white; padding-top: 100px">
-        <h1><strong>Belajar Pemrograman Online</strong></h1>
+        <h3><strong>Belajar Pemrograman Online</strong></h3>
         <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
         <p>
-          <a style="border-radius:50px" class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">OK!, Saya Daftar Sekarang</a>
-          <a style="border-radius:50px" class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">OK!, Belajar Mulai Sekarang</a>
+          <a style="border-radius:50px" class="btn btn-success btn-outline" href="#" role="button">OK!, Saya Daftar Sekarang</a>
+          <a style="border-radius:50px" class="btn btn-danger btn-outline" href="#" role="button">OK!, Belajar Mulai Sekarang</a>
         </p>
       </div>
       </div>
@@ -177,10 +176,14 @@ padding-left:90px;
              <div class="panel-body">
               <div class="row">
                 <div class="col-md-4">
-                  <img style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/avatar/img_avatar2.png">
+                  <img class="img img-circle float" style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/icon/ruby.png">
                 </div>
                 <div class="col-md-8">
-                  gdvhjbsnyuhjegj
+                <h4 style="padding-left: 25px;text-align: left;">
+                <a href="#"> RUBY</a>
+                </h4>
+                  <hr>
+                  Master your ruby skills and increase your rails street cred by learning to build dynamic, sustainable applications for the web.
                 </div>
               </div>
            </div>
@@ -192,71 +195,58 @@ padding-left:90px;
              <div class="panel-body">
              <div class="row">
                 <div class="col-md-4">
-                  <img style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/avatar/img_avatar2.png">
+                  <img class="img img-circle" style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/icon/html.png">
                 </div>
                 <div class="col-md-8">
-                  gdvhjbsnyuhjegj
+                  <h4 style="padding-left: 25px;text-align: left;">
+                <a href="#"> HTML</a>
+                </h4>
+                  <hr>
+                  learn the fundamentals of design, front-end development, and crafting user experiences that are easy on the eyes
                 </div>
               </div>
            </div>
          </div>
       </div>
+      <!-- di bagi 3 kolom -->
         <div class="col-md-6">
           <div class="panel panel-default">
             <div class="panel-body">
               <div class="row">
                 <div class="col-md-4">
-                  <img style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/avatar/img_avatar2.png">
+                  <img class="img img-circle" style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/icon/ci.png">
                   </div>
                   <div class="col-md-8">
-                  gdvhjbsnyuhjegj
+                   <h4 style="padding-left: 25px;text-align: left;">
+                <a href="#"> CODEIGNITER</a>
+                </h4>
+                  <hr>
+                  CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create web applications
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- di bagi 4 kolom -->
         <div class="col-md-6">
           <div class="panel panel-default">
             <div class="panel-body">
               <div class="row">
                 <div class="col-md-4">
-                  <img style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/avatar/img_avatar2.png">
+                  <img class="img img-circle" style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/icon/bootstrap.jpg">
                   </div>
                   <div class="col-md-8">
-                  gdvhjbsnyuhjegj
+                   <h4 style="padding-left: 25px;text-align: left;">
+                <a href="#"> BOOTSTRAP</a>
+                </h4>
+                  <hr>
+                  Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
               </div>
             </div>
           </div>
         </div>
       </div>
-        <div class="col-md-6">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <div class="row">
-                <div class="col-md-4">
-                  <img style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/avatar/img_avatar2.png">
-                  </div>
-                  <div class="col-md-8">
-                  gdvhjbsnyuhjegj
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-        <div class="col-md-6">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <div class="row">
-                <div class="col-md-4">
-                  <img style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/avatar/img_avatar2.png">
-                  </div>
-                  <div class="col-md-8">
-                  gdvhjbsnyuhjegj
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        
         </div>
           </div>
             <div class="container">
@@ -266,10 +256,14 @@ padding-left:90px;
                     <div class="panel-body">
                     <div class="row">
                     <div class="col-md-4">
-                    <img style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/avatar/img_avatar2.png">
+                    <img class="img img-circle" style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/icon/js.png">
                     </div>
                     <div class="col-md-8">
-                    gdvhjbsnyuhjegj
+                    <h4 style="padding-left: 25px;text-align: left;">
+                <a href="#"> JAVASCRIPT</a>
+                </h4>
+                  <hr>
+                 Begin learning here by typing in your first name surrounded by quotation marks, and ending with a semicolon. 
                   </div>
                 </div>
               </div>
@@ -285,7 +279,7 @@ padding-left:90px;
     </div>
     <ul class="timeline">
         <li>
-          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-facetime-video"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">Video Tutorial</h4>
@@ -298,7 +292,7 @@ padding-left:90px;
           </div>
         </li>
         <li class="timeline-inverted">
-          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-briefcase"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">Kurikulum Berorientasi Karir</h4>
@@ -311,7 +305,7 @@ padding-left:90px;
           </div>
         </li>
         <li>
-          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-badge danger"><i class="glyphicon glyphicon-thumbs-up"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">Bimbingan Para Ahli</h4>
@@ -322,7 +316,8 @@ padding-left:90px;
             </div>
           </div>
         </li>
-        <li class="timeline-inverted">
+         <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-wrench"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">Praktik Langsung</h4>
@@ -330,28 +325,7 @@ padding-left:90px;
             </div>
             <div class="timeline-body">
               <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-              </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
             </div>
           </div>
         </li>
@@ -371,38 +345,53 @@ padding-left:90px;
 <div class="container" style="padding-top:60px">
   <div class="row">
     <div class="col-md-4">
-      <p style="font-size:14px">
-      “I had never tried to learn code before out of fear that I wasn’t ‘techy enough’ and probably not smart enough — I was a Mathlete, but I spent most of my time making doodles with the DRAW function of my TI89. Every time I finish a Code School lesson, I feel like I prove that fear wrong. I truly appreciate you making an accessible resource.”</p>
       <div class="row">
       <div class="col-md-4">
         <img class="img-circle" style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/avatar/img_avatar2.png">
       </div>
-      <div class="col-md-8" style="padding-top:35px">
-        hjkgdelwjcjikjkln
+      <div class="col-md-8" style="padding-top:0px">
+      <h4 class="card-title">Badriyatul Muawannah</h4>
+                        <div class="card-text">
+                            Profesional System Designer
+                        </div>
+        <div class="card-footer">
+                        <small style="padding-right: 40px" class="float-left">Last updated 3 mins ago</small>
+                        <button class="btn btn-info float-right btn-sm"><i class="fa fa-check"></i> Follow</button>
+                    </div>
       </div>
       </div>
     </div>
         <div class="col-md-4">
-      <p style="font-size:14px">
-      “I had never tried to learn code before out of fear that I wasn’t ‘techy enough’ and probably not smart enough — I was a Mathlete, but I spent most of my time making doodles with the DRAW function of my TI89. Every time I finish a Code School lesson, I feel like I prove that fear wrong. I truly appreciate you making an accessible resource.”</p>
             <div class="row">
       <div class="col-md-4">
         <img class="img-circle" style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/avatar/img_avatar2.png">
       </div>
-      <div class="col-md-8" style="padding-top:35px">
-        hjkgdelwjcjikjkln
+      <div class="col-md-8" style="padding-top:0px">
+         <h4 class="card-title">Faisal Mahadi</h4>
+                        <div class="card-text">
+                            Profesional Frontend Developer.
+                        </div>
+        <div class="card-footer">
+                        <small style="padding-right: 40px" class="float-left">Last updated 3 mins ago</small>
+                        <button class="btn btn-info float-right btn-sm"><i class="fa fa-check"></i> Follow</button>
+                    </div>
       </div>
       </div>
     </div>
         <div class="col-md-4">
-      <p style="font-size:14px">
-      “I had never tried to learn code before out of fear that I wasn’t ‘techy enough’ and probably not smart enough — I was a Mathlete, but I spent most of my time making doodles with the DRAW function of my TI89. Every time I finish a Code School lesson, I feel like I prove that fear wrong. I truly appreciate you making an accessible resource.”</p>
             <div class="row">
       <div class="col-md-4">
         <img class="img-circle" style="height:100px; width:auto" src="<?php echo base_url()?>resources/images/avatar/img_avatar2.png">
       </div>
-      <div class="col-md-8" style="padding-top:35px">
-        hjkgdelwjcjikjkln
+      <div class="col-md-8" style="padding-top:0px">
+         <h4 class="card-title">Fika Ridaul Maulayya</h4>
+                        <div class="card-text">
+                            Profesional Backend Developer.
+                        </div>
+        <div class="card-footer">
+                        <small style="padding-right: 40px" class="float-left">Last updated 3 mins ago</small>
+                        <button class="btn btn-info float-right btn-sm"><i class="fa fa-check"></i> Follow</button>
+                    </div>
       </div>
       </div>
     </div>
