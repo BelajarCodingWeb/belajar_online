@@ -160,15 +160,14 @@ padding-left:90px;
         <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
         <p>To see the difference between static and fixed top navbars, just scroll.</p>
         <p>
-          <a style="border-radius:50px" class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Create Free Account</a>
-          <a style="border-radius:50px" class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Explore Courses</a>
+          <a style="border-radius:50px" class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">OK!, Saya Daftar Sekarang</a>
+          <a style="border-radius:50px" class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">OK!, Belajar Mulai Sekarang</a>
         </p>
       </div>
       </div>
 
       <div class="container" style="text-align:center">
-        <h2>Learning Paths</h2>
-        <p>Code School courses are organized into Paths based on technology.Navigate to find the right course for you.</p>
+        <h2>Tentukan Langkahmu Sekarang</h2>
       </div>
       
     <div class="container" style="padding-top:50px">
@@ -282,26 +281,28 @@ padding-left:90px;
 
 <div class="container">
     <div class="page-header">
-        <h1 id="timeline">Timeline</h1>
+        <h1 id="timeline" style="text-align: center;">Manfaat Program Kami</h1>
     </div>
     <ul class="timeline">
         <li>
           <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+              <h4 class="timeline-title">Video Tutorial</h4>
+              <hr>
             </div>
             <div class="timeline-body">
               <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
             </div>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
           </div>
         </li>
         <li class="timeline-inverted">
           <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+              <h4 class="timeline-title">Kurikulum Berorientasi Karir</h4>
+              <hr>
             </div>
             <div class="timeline-body">
               <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
@@ -313,7 +314,8 @@ padding-left:90px;
           <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+              <h4 class="timeline-title">Bimbingan Para Ahli</h4>
+              <hr>
             </div>
             <div class="timeline-body">
               <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
@@ -323,7 +325,8 @@ padding-left:90px;
         <li class="timeline-inverted">
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+              <h4 class="timeline-title">Praktik Langsung</h4>
+              <hr>
             </div>
             <div class="timeline-body">
               <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
@@ -357,7 +360,7 @@ padding-left:90px;
 <div class="container">
               <div class="row">
                 <div style="text-align:center;" class="col-md-6 col-md-offset-3">
-                <h2>Join the Crowd</h2>
+                <h2>Profesional Partner Kami</h2>
                 <p >
                   Code School has impacted over a million students from 237 countries. 
                   Read how these students learn by doing with Code School courses and screencasts.
@@ -406,3 +409,15 @@ padding-left:90px;
     </div>
   </div>
 </div>
+<br>
+<br>
+ <div class="jumbotron" style="padding-top:10px; background-color: #2786c9;
+        height: 500px;">
+        <div style="text-align:center; color:white; padding-top: 150px;">
+        <h1><strong>Siap Belajar Sekarang?</strong></h1>
+        <p>Tentukan Sekarang dan Jadilah Developer Handal</p>
+        <p>
+          <a style="border-radius:50px" class="btn btn-lg btn-success" href="../../components/#navbar" role="button">OK!, Saya Daftar Sekarang</a>
+        </p>
+      </div>
+      </div>

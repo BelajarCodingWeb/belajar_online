@@ -22,10 +22,10 @@
     </script>
    </head>
    <!-- Static navbar -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="row">
-      <div class="col-md-4" style="padding-top: 15px">
+      <div class="col-md-5" style="padding-top: 15px; padding-left: 50px;">
         <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -36,7 +36,7 @@
       <a href="<?php echo base_url();?>" title=""><img src="<?php echo base_url(); ?>resources/images/logo-code-school.svg" alt=""></a>
     </div>
       </div>
-      <div class="col-md-8"  style="padding-top: 15px">
+      <div class="col-md-6"  style="padding-top: 15px">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div class="nav navbar-nav navbar-right">
         <a style="border-radius: 0px" class="btn btn-success" href="<?php echo base_url() ?>Courses/"> <i class="fa fa-external-link-square"></i> Courses</a>
