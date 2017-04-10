@@ -160,8 +160,8 @@ padding-left:90px;
         <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
         <p>To see the difference between static and fixed top navbars, just scroll.</p>
         <p>
-          <a style="border-radius:50px" class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Create Free Account</a>
-          <a style="border-radius:50px" class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Explore Courses</a>
+          <a style="border-radius:50px" class="btn btn-lg btn-primary" href="#" role="button">Create Free Account</a>
+          <a style="border-radius:50px" class="btn btn-lg btn-primary" href="#" role="button">Explore Courses</a>
         </p>
       </div>
       </div>
