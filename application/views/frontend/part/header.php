@@ -33,7 +33,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="<?php echo base_url();?>" title=""><img src="<?php echo base_url(); ?>resources/images/logo-code-school.svg" alt=""></a>
+      <a href="<?php echo base_url();?>" title=""><img src="<?php echo base_url(); ?>resources/images/Graphic1.png" alt=""></a>
     </div>
       </div>
       <div class="col-md-6"  style="padding-top: 15px">
