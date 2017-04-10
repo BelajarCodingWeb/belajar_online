@@ -155,7 +155,7 @@ padding-left:90px;
         background-repeat: no-repeat;
         background-size: 100%;
         height: 500px;">
-        <div style="text-align:center; color:white">
+        <div style="text-align:center; color:white; padding-top: 100px">
         <h1><strong>Belajar Pemrograman Online</strong></h1>
         <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
         <p>To see the difference between static and fixed top navbars, just scroll.</p>
