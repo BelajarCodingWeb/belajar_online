@@ -272,7 +272,6 @@ padding-left:90px;
         </div>
       </div>
     </div>
-
 <div class="container">
     <div class="page-header">
         <h1 id="timeline" style="text-align: center;">Manfaat Program Kami</h1>

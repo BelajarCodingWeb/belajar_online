@@ -15,6 +15,7 @@ class About extends CI_Controller {
 
 			$this->load->view('frontend/part/header', $data);
 			$this->load->view('frontend/layout/about/data');
+			// $this->load->view('frontend/layout/about/senyumlah');
 			$this->load->view('frontend/part/footer');
 	}
 
@@ -27,5 +28,49 @@ class About extends CI_Controller {
 			$this->load->view('frontend/part/header', $data);
 			$this->load->view('frontend/layout/about/jobs');
 			$this->load->view('frontend/part/footer');
+	}
+
+	//Halaman To You
+	public function untukmu()
+	{
+		$data = array('title' => 'Untukmu',
+		  			'untukmu' => TRUE);
+
+			$this->load->view('frontend/part/header', $data);
+			$this->load->view('frontend/layout/about/untukmu');
+			$this->load->view('frontend/part/footer');
+	}
+
+	//Halaman Hai
+	public function hai()
+	{
+		$data = array('title' => 'Hai Anna',
+		  			'hai' => TRUE);
+
+			$this->load->view('frontend/part/header', $data);
+			$this->load->view('frontend/layout/about/hai');
+			$this->load->view('frontend/part/footer');
+	}
+
+	//Halaman Senyumlah
+	public function Senyumlah()
+	{
+		$data = array('title' => 'Hai Anna',
+		  			'senyumlah' => TRUE);
+
+			$this->load->view('frontend/part/header');
+			$this->load->view('frontend/layout/about/senyumlah', $data);
+			$this->load->view('frontend/part/footer');
+	}
+
+	//Halaman doa
+	public function doa()
+	{
+		$data = array('title' => 'Hai Anna',
+		  			'doa' => TRUE);
+
+			// $this->load->view('frontend/part/header');
+			$this->load->view('frontend/layout/about/doa', $data);
+			// $this->load->view('frontend/part/footer');
 	}
 }

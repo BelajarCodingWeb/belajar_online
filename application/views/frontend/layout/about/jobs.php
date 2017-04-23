@@ -11,17 +11,18 @@
       	</div>
     </div>
     <div class="row">
-    	<div class="col-md-4">
-    		<div class="list-group nav-stacked" style="padding-left:20px;">
-    			<a class="list-group-item <?php if(isset($about)) { echo "active"; } ?>" href="<?php echo base_url()?>About/"  title=""> About</a>
-    			<a class="list-group-item <?php if(isset($about)) { echo 'active'; } ?>" href="<?php echo base_url()?>About/Jobs/" title=""> Jobs</a>
-    			<a class="list-group-item" href="" title=""> Brand Assets</a>
-    			<a class="list-group-item" href="" title=""> Privacy Policy</a>
-    			<a class="list-group-item" href="" title=""> Temrs Of Use</a>
-    			<a class="list-group-item" href="" title=""> FAQ</a>
+        <div class="col-md-4">
+            <div class="list-group nav-stacked" style="padding-left:20px;">
+                <a class="list-group-item" href="<?php echo base_url()?>About/" title="About"> About</a>
+                <a class="list-group-item" href="<?php echo base_url()?>About/Jobs/" title="Jobs"> Jobs</a>
+                 <a class="list-group-item" href="<?php echo base_url()?>About/Hai/" title=""> <strong>Hai</strong></a>
+                <a class="list-group-item" href="<?php echo base_url()?>About/Untukmu/" title="For You"> <strong>Untukmu</strong></a>
+                <a class="list-group-item" href="" title=""> Temrs Of Use</a>
+                <a class="list-group-item" href="" title=""> FAQ</a>
 
-    		</div>
-    	</div>
+            </div>
+            <img style="width: 400px; height: auto; " src="<?php echo base_url() ?>resources/images/image3.png" alt="angry-birds-font" border="0">
+        </div>
     	<div class="col-md-8">
     		<div class="well">
     			<h3>What We Do</h3>
