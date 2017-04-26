@@ -159,7 +159,7 @@ padding-left:90px;
         <h3><strong>Belajar Pemrograman Online</strong></h3>
         <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
         <p>
-          <a style="border-radius:50px" class="btn btn-success btn-outline" href="#" role="button">OK!, Saya Daftar Sekarang</a>
+          <a style="border-radius:50px" class="btn btn-success btn-outline" href="<?php echo base_url() ?>daftar/" role="button">OK!, Saya Daftar Sekarang</a>
           <a style="border-radius:50px" class="btn btn-danger btn-outline" href="#" role="button">OK!, Belajar Mulai Sekarang</a>
         </p>
       </div>
@@ -199,7 +199,7 @@ padding-left:90px;
                 </div>
                 <div class="col-md-8">
                   <h4 style="padding-left: 25px;text-align: left;">
-                <a href="#"> HTML</a>
+                <a href="<?php echo base_url()?>html/"> HTML</a>
                 </h4>
                   <hr>
                   learn the fundamentals of design, front-end development, and crafting user experiences that are easy on the eyes

@@ -6,7 +6,9 @@
  -->
 <style type="text/css">
 .reveal{width:600px;height:350px;box-shadow:0 0 30px -5px grey;background:#fff;margin:calc(50vh - 175px) auto;max-width:96%;position:relative;overflow:hidden}
-.revealleft,.revealright{width:50%;background:#dc143c;height:100%;position:absolute;left:0;transition:all 1s}
+.revealleft,
+.revealright
+{width:50%;background:#dc143c;height:100%;position:absolute;left:0;transition:all 1s}
 .revealright{left:50%}
 .revealleft.revealed{left:-50%}
 .revealright.revealed{left:100%}
